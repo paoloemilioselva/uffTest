@@ -1,0 +1,32 @@
+{
+  "Plugins": [
+    {
+      "Info": {
+        "SdfMetadata": {
+          "uffParams": {
+            "type": "dictionary",
+            "displayGroup": "Core",
+            "appliesTo": [ "prims" ],
+            "documentation:": "Procedural parameters for uffTest"
+          }
+        },
+        "Types": {
+          "uffTest": {
+            "bases": [ "SdfFileFormat" ],
+            "extensions": [ "uff" ],
+            "formatId": "uff",
+            "primary": true,
+            "target": "usd",
+            "displayName": "uffTest FileFormat plugin",
+            "supportsWriting": false
+          }
+        }
+      },
+      "LibraryPath": "../uffTest.dll",
+      "Name": "uffTest",
+      "Type": "library",
+      "ResourcePath": "resources",
+      "Root": ".."
+    }
+  ]
+}

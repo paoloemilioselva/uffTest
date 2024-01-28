@@ -30,3 +30,11 @@ In this example plugin, attributes will always override metadata params.
 You can change how many cubes you want on each axis and how much random-rotation-Y degrees you want per cube.
 
 Benefits of fileformat plugins is that they generate usd-prims, so you could use `usdcat` or a Solaris USD_ROP flattened to just bake the resulting prims in a fully portable usd file.
+
+The plugin lets you compile for standard OpenUSD or for SideFX Solaris, installing directly in the right Documents folder to be picked up by Solaris (please, modify installation paths if required).
+
+
+
+https://github.com/paoloemilioselva/uffTest/assets/1212607/cb889844-2ae8-4101-af84-900c0f31b2cc
+
+
